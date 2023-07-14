@@ -37,28 +37,41 @@
   <property name="windowTitle">
    <string>LoginRegister</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(250, 250, 250);</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <property name="styleSheet">
     <string notr="true">QTabBar::Tab {
 	width: 150;
 	height: 40;
-	border: 1px solid black
+	border: 1px solid black;
+	border-radius: 4
 
 }
 QTabWidget::Pane {
-	backgrouns-color: none
+	background-color: #fafafa;
 }
+QTabBar::Tab::Selected{
+	background-color: #d9c57e;
 
+
+}
 QLineEdit {
 	background-color: none;
-	border: 1px solid black
+	border: 1px solid black;
+ 	border-radius: 4;
 
 }
 
 QPushButton {
-	border: 1px solid black
+	border: 1px solid black;
+	background-color: #d9c57e;
+	border-radius: 4;
+
 
 }
+
 
 </string>
    </property>
@@ -74,6 +87,9 @@ QPushButton {
     <property name="styleSheet">
      <string notr="true"/>
     </property>
+    <property name="tabPosition">
+     <enum>QTabWidget::North</enum>
+    </property>
     <property name="currentIndex">
      <number>0</number>
     </property>
@@ -86,7 +102,7 @@ QPushButton {
     <property name="usesScrollButtons">
      <bool>false</bool>
     </property>
-    <widget class="QWidget" name="tab">
+    <widget class="QWidget" name="Login">
      <attribute name="title">
       <string>Login</string>
      </attribute>
@@ -255,23 +271,17 @@ QPushButton {
      </widget>
     </widget>
    </widget>
-   <widget class="QFrame" name="frame">
+   <widget class="QLabel" name="logo">
     <property name="geometry">
      <rect>
-      <x>560</x>
-      <y>100</y>
-      <width>161</width>
-      <height>131</height>
+      <x>580</x>
+      <y>140</y>
+      <width>101</width>
+      <height>101</height>
      </rect>
     </property>
-    <property name="styleSheet">
-     <string notr="true">border: 1px solid black</string>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::StyledPanel</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Raised</enum>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/img/SmallCardVaultLogo.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
   </widget>

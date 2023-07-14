@@ -33,10 +33,10 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="styleSheet">
-    <string notr="true">QFrame {
-	border: 1px solid black
+    <string notr="true">QPushButton {
+	
+	background-color: rgb(255, 255, 255);
 }
-
 </string>
    </property>
    <widget class="QFrame" name="frame">
@@ -48,28 +48,15 @@
       <height>700</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);</string>
+    </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
     </property>
     <property name="frameShadow">
      <enum>QFrame::Raised</enum>
     </property>
-    <widget class="QFrame" name="frame_3">
-     <property name="geometry">
-      <rect>
-       <x>43</x>
-       <y>40</y>
-       <width>120</width>
-       <height>111</height>
-      </rect>
-     </property>
-     <property name="frameShape">
-      <enum>QFrame::StyledPanel</enum>
-     </property>
-     <property name="frameShadow">
-      <enum>QFrame::Raised</enum>
-     </property>
-    </widget>
     <widget class="QFrame" name="frame_4">
      <property name="geometry">
       <rect>
@@ -86,6 +73,19 @@
       <enum>QFrame::Raised</enum>
      </property>
     </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>50</y>
+       <width>111</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/img/SmallCardVaultLogo.png&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
    </widget>
    <widget class="QFrame" name="frame_2">
     <property name="geometry">
@@ -95,6 +95,9 @@
       <width>1070</width>
       <height>121</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #d9c57e;</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -115,7 +118,7 @@
       <bool>false</bool>
      </property>
      <property name="styleSheet">
-      <string notr="true"/>
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
      </property>
      <property name="editable">
       <bool>false</bool>
@@ -127,7 +130,7 @@
       <number>-1</number>
      </property>
      <property name="placeholderText">
-      <string>Filter By...</string>
+      <string>Sort/Filter</string>
      </property>
      <item>
       <property name="text">
@@ -149,8 +152,11 @@
        <height>30</height>
       </rect>
      </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
      <property name="text">
-      <string>Add Set</string>
+      <string>Add New Set</string>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton_2">
@@ -162,10 +168,32 @@
        <height>30</height>
       </rect>
      </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(255, 255, 255);</string>
+     </property>
      <property name="text">
-      <string>Add Card</string>
+      <string>Add New Card</string>
      </property>
     </widget>
+   </widget>
+   <widget class="QFrame" name="cardsFrame">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>140</y>
+      <width>1071</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(250, 250, 250);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
    </widget>
   </widget>
  </widget>

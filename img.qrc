@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>SmallCardVaultLogo.png</file>
+    </qresource>
+</RCC>

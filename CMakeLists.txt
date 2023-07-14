@@ -18,6 +18,7 @@ set(PROJECT_SOURCES
         loginregister.h
         loginregister.ui
         userhome.h userhome.cpp userhome.ui
+        img.qrc
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
@@ -44,6 +45,8 @@ else()
 endif()
 
 target_link_libraries(TCG-TakeTwo PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
+find_package(Qt6 REQUIRED COMPONENTS Sql)
+target_link_libraries(TCG-TakeTwo PRIVATE Qt6::Sql)
 
 set_target_properties(TCG-TakeTwo PROPERTIES
     MACOSX_BUNDLE_GUI_IDENTIFIER my.example.com
