@@ -1,5 +1,20 @@
 <RCC>
     <qresource prefix="/img">
         <file>SmallCardVaultLogo.png</file>
+        <file>G:/My Drive/Emma/CS106/Bewear.MCD22.12.44484.webp</file>
+        <file>G:/My Drive/Emma/CS106/Chinchou.MCD22.8.44489.webp</file>
+        <file>G:/My Drive/Emma/CS106/Cutiefly.MCD22.11.44486.webp</file>
+        <file>G:/My Drive/Emma/CS106/Drampa.MCD22.14.44481.webp</file>
+        <file>G:/My Drive/Emma/CS106/Flaaffy.MCD22.9.44492.webp</file>
+        <file>G:/My Drive/Emma/CS106/Gossifleur.MCD22.3.44488.webp</file>
+        <file>G:/My Drive/Emma/CS106/Growlithe.MCD22.4.44479.webp</file>
+        <file>G:/My Drive/Emma/CS106/Lapras.MCD22.6.44480.webp</file>
+        <file>G:/My Drive/Emma/CS106/Ledyba.MCD22.1.44478.webp</file>
+        <file>G:/My Drive/Emma/CS106/Pangoro.MCD22.13.44490.webp</file>
+        <file>G:/My Drive/Emma/CS106/Pikachu.MCD22.7.44483.webp</file>
+        <file>G:/My Drive/Emma/CS106/Rowlet.MCD22.2.44482.webp</file>
+        <file>G:/My Drive/Emma/CS106/Smeargle.MCD22.15.44487.webp</file>
+        <file>G:/My Drive/Emma/CS106/Tynamo.MCD22.10.44485.webp</file>
+        <file>G:/My Drive/Emma/CS106/Victini.MCD22.5.44491.webp</file>
     </qresource>
 </RCC>
