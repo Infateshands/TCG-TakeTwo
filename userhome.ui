@@ -93,7 +93,7 @@
       <x>210</x>
       <y>20</y>
       <width>1070</width>
-      <height>121</height>
+      <height>120</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -197,11 +197,22 @@
     <widget class="QScrollArea" name="scrollArea">
      <property name="geometry">
       <rect>
-       <x>14</x>
-       <y>20</y>
-       <width>1041</width>
-       <height>551</height>
+       <x>10</x>
+       <y>10</y>
+       <width>1051</width>
+       <height>561</height>
       </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+	border-radius: 5
+}</string>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAsNeeded</enum>
+     </property>
+     <property name="horizontalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOff</enum>
      </property>
      <property name="widgetResizable">
       <bool>true</bool>
@@ -211,8 +222,8 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>1025</width>
-        <height>1140</height>
+        <width>1038</width>
+        <height>1036</height>
        </rect>
       </property>
       <layout class="QVBoxLayout" name="verticalLayout">
@@ -226,14 +237,14 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>1000</width>
-           <height>370</height>
+           <width>1020</width>
+           <height>250</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
-           <width>1000</width>
-           <height>370</height>
+           <width>1020</width>
+           <height>250</height>
           </size>
          </property>
          <property name="frameShape">
@@ -253,77 +264,21 @@
             </property>
             <property name="minimumSize">
              <size>
-              <width>250</width>
-              <height>350</height>
+              <width>200</width>
+              <height>230</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
-              <width>250</width>
-              <height>350</height>
+              <width>200</width>
+              <height>230</height>
              </size>
             </property>
             <property name="styleSheet">
-             <string notr="true">border-image: url(:/img/G:/My Drive/Emma/CS106/Flaaffy.MCD22.9.44492.webp);</string>
+             <string notr="true">border-image: url(:/img/2022/001.png);</string>
             </property>
             <property name="text">
-             <string>TextLabel</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="label_10">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="minimumSize">
-             <size>
-              <width>250</width>
-              <height>350</height>
-             </size>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>250</width>
-              <height>350</height>
-             </size>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">border-image: url(:/img/G:/My Drive/Emma/CS106/Bewear.MCD22.12.44484.webp);</string>
-            </property>
-            <property name="text">
-             <string>TextLabel</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="label_14">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="minimumSize">
-             <size>
-              <width>250</width>
-              <height>350</height>
-             </size>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>250</width>
-              <height>350</height>
-             </size>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">border-image: url(:/img/G:/My Drive/Emma/CS106/Cutiefly.MCD22.11.44486.webp);</string>
-            </property>
-            <property name="text">
-             <string>TextLabel</string>
+             <string/>
             </property>
            </widget>
           </item>
@@ -337,21 +292,77 @@
             </property>
             <property name="minimumSize">
              <size>
-              <width>250</width>
-              <height>350</height>
+              <width>200</width>
+              <height>230</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
-              <width>250</width>
-              <height>350</height>
+              <width>200</width>
+              <height>230</height>
              </size>
             </property>
             <property name="styleSheet">
-             <string notr="true">border-image: url(:/img/G:/My Drive/Emma/CS106/Gossifleur.MCD22.3.44488.webp);</string>
+             <string notr="true">border-image: url(:/img/2022/002.png);</string>
             </property>
             <property name="text">
-             <string>TextLabel</string>
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>230</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>200</width>
+              <height>230</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/img/2022/001.png);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_5">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>230</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>200</width>
+              <height>230</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/img/2022/004.png);</string>
+            </property>
+            <property name="text">
+             <string/>
             </property>
            </widget>
           </item>
@@ -368,14 +379,14 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>1000</width>
-           <height>370</height>
+           <width>1020</width>
+           <height>250</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
-           <width>1000</width>
-           <height>370</height>
+           <width>1020</width>
+           <height>250</height>
           </size>
          </property>
          <property name="frameShape">
@@ -386,7 +397,7 @@
          </property>
          <layout class="QHBoxLayout" name="horizontalLayout_3">
           <item>
-           <widget class="QLabel" name="label_6">
+           <widget class="QLabel" name="label_10">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
               <horstretch>0</horstretch>
@@ -395,21 +406,49 @@
             </property>
             <property name="minimumSize">
              <size>
-              <width>250</width>
-              <height>350</height>
+              <width>200</width>
+              <height>230</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
-              <width>250</width>
-              <height>350</height>
+              <width>200</width>
+              <height>230</height>
              </size>
             </property>
             <property name="styleSheet">
-             <string notr="true">border-image: url(:/img/G:/My Drive/Emma/CS106/Flaaffy.MCD22.9.44492.webp);</string>
+             <string notr="true">border-image: url(:/img/2022/005.png);</string>
             </property>
             <property name="text">
-             <string>TextLabel</string>
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_11">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>230</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>200</width>
+              <height>230</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/img/2022/006.png);</string>
+            </property>
+            <property name="text">
+             <string/>
             </property>
            </widget>
           </item>
@@ -423,26 +462,26 @@
             </property>
             <property name="minimumSize">
              <size>
-              <width>250</width>
-              <height>350</height>
+              <width>200</width>
+              <height>230</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
-              <width>250</width>
-              <height>350</height>
+              <width>200</width>
+              <height>230</height>
              </size>
             </property>
             <property name="styleSheet">
-             <string notr="true">border-image: url(:/img/G:/My Drive/Emma/CS106/Flaaffy.MCD22.9.44492.webp);</string>
+             <string notr="true">border-image: url(:/img/2022/007.png);</string>
             </property>
             <property name="text">
-             <string>TextLabel</string>
+             <string/>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="label_16">
+           <widget class="QLabel" name="label_13">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
               <horstretch>0</horstretch>
@@ -451,49 +490,21 @@
             </property>
             <property name="minimumSize">
              <size>
-              <width>250</width>
-              <height>350</height>
+              <width>200</width>
+              <height>230</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
-              <width>250</width>
-              <height>350</height>
+              <width>200</width>
+              <height>230</height>
              </size>
             </property>
             <property name="styleSheet">
-             <string notr="true">border-image: url(:/img/G:/My Drive/Emma/CS106/Flaaffy.MCD22.9.44492.webp);</string>
+             <string notr="true">border-image: url(:/img/2022/008.png);</string>
             </property>
             <property name="text">
-             <string>TextLabel</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="label_7">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="minimumSize">
-             <size>
-              <width>250</width>
-              <height>350</height>
-             </size>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>250</width>
-              <height>350</height>
-             </size>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">border-image: url(:/img/G:/My Drive/Emma/CS106/Flaaffy.MCD22.9.44492.webp);</string>
-            </property>
-            <property name="text">
-             <string>TextLabel</string>
+             <string/>
             </property>
            </widget>
           </item>
@@ -510,14 +521,14 @@
          </property>
          <property name="minimumSize">
           <size>
-           <width>1000</width>
-           <height>370</height>
+           <width>1020</width>
+           <height>250</height>
           </size>
          </property>
          <property name="maximumSize">
           <size>
-           <width>1000</width>
-           <height>370</height>
+           <width>1020</width>
+           <height>250</height>
           </size>
          </property>
          <property name="frameShape">
@@ -528,7 +539,7 @@
          </property>
          <layout class="QHBoxLayout" name="horizontalLayout_2">
           <item>
-           <widget class="QLabel" name="label_4">
+           <widget class="QLabel" name="label_6">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
               <horstretch>0</horstretch>
@@ -537,26 +548,26 @@
             </property>
             <property name="minimumSize">
              <size>
-              <width>250</width>
-              <height>350</height>
+              <width>200</width>
+              <height>230</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
-              <width>250</width>
-              <height>350</height>
+              <width>200</width>
+              <height>230</height>
              </size>
             </property>
             <property name="styleSheet">
-             <string notr="true">border-image: url(:/img/G:/My Drive/Emma/CS106/Flaaffy.MCD22.9.44492.webp);</string>
+             <string notr="true">border-image: url(:/img/2022/009.png);</string>
             </property>
             <property name="text">
-             <string>TextLabel</string>
+             <string/>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="label_11">
+           <widget class="QLabel" name="label_7">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
               <horstretch>0</horstretch>
@@ -565,21 +576,135 @@
             </property>
             <property name="minimumSize">
              <size>
-              <width>250</width>
-              <height>350</height>
+              <width>200</width>
+              <height>230</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
-              <width>250</width>
-              <height>350</height>
+              <width>200</width>
+              <height>230</height>
              </size>
             </property>
             <property name="styleSheet">
-             <string notr="true">border-image: url(:/img/G:/My Drive/Emma/CS106/Flaaffy.MCD22.9.44492.webp);</string>
+             <string notr="true">border-image: url(:/img/2022/010.png);</string>
             </property>
             <property name="text">
-             <string>TextLabel</string>
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_8">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>230</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>200</width>
+              <height>230</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/img/2022/011.png);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_9">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>230</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>200</width>
+              <height>230</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/img/2022/012.png);</string>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_7">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>1020</width>
+           <height>250</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>1020</width>
+           <height>250</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item>
+           <widget class="QLabel" name="label_14">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="minimumSize">
+             <size>
+              <width>200</width>
+              <height>230</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>200</width>
+              <height>230</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-image: url(:/img/2022/013.png);</string>
+            </property>
+            <property name="text">
+             <string/>
             </property>
            </widget>
           </item>
@@ -593,26 +718,26 @@
             </property>
             <property name="minimumSize">
              <size>
-              <width>250</width>
-              <height>350</height>
+              <width>200</width>
+              <height>230</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
-              <width>250</width>
-              <height>350</height>
+              <width>200</width>
+              <height>230</height>
              </size>
             </property>
             <property name="styleSheet">
-             <string notr="true">border-image: url(:/img/G:/My Drive/Emma/CS106/Flaaffy.MCD22.9.44492.webp);</string>
+             <string notr="true">border-image: url(:/img/2022/014.png);</string>
             </property>
             <property name="text">
-             <string>TextLabel</string>
+             <string/>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QLabel" name="label_5">
+           <widget class="QLabel" name="label_16">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
               <horstretch>0</horstretch>
@@ -621,21 +746,21 @@
             </property>
             <property name="minimumSize">
              <size>
-              <width>250</width>
-              <height>350</height>
+              <width>200</width>
+              <height>230</height>
              </size>
             </property>
             <property name="maximumSize">
              <size>
-              <width>250</width>
-              <height>350</height>
+              <width>200</width>
+              <height>230</height>
              </size>
             </property>
             <property name="styleSheet">
-             <string notr="true">border-image: url(:/img/G:/My Drive/Emma/CS106/Flaaffy.MCD22.9.44492.webp);</string>
+             <string notr="true">border-image: url(:/img/2022/015.png);</string>
             </property>
             <property name="text">
-             <string>TextLabel</string>
+             <string/>
             </property>
            </widget>
           </item>

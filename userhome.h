@@ -15,6 +15,9 @@ public:
     explicit UserHome(QWidget *parent = nullptr);
     ~UserHome();
 
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::UserHome *ui;
 };

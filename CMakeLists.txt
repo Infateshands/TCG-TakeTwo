@@ -19,6 +19,9 @@ set(PROJECT_SOURCES
         loginregister.ui
         userhome.h userhome.cpp userhome.ui
         img.qrc
+        flowlayout.h flowlayout.cpp
+        addset.h addset.cpp addset.ui
+        addcard.h addcard.cpp addcard.ui
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
